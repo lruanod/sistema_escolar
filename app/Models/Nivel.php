@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Nivel extends Model
+{
+    protected $fillable =['nnombre'];
+
+    /***  relacion de nivel a muchos grados**/
+    public function nivels(){
+        return $this->hasMany('App\Models\Grado');
+    }
+}

@@ -1,0 +1,11 @@
+<div>
+    @include('livewire.cuestionarios.lista')
+    @include("livewire.cuestionarios.modalp")
+    @include("livewire.cuestionarios.modale")
+    @include("livewire.cuestionarios.create")
+    @include("livewire.cuestionarios.createasignar")
+    @include("livewire.cuestionarios.editasignar")
+    @include("livewire.cuestionarios.createasignar2")
+    @include("livewire.cuestionarios.edit")
+    @include("livewire.cuestionarios.editasignar2")
+</div>
